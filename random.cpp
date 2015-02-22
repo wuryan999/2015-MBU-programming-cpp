@@ -4,8 +4,8 @@
 int main(void){
 	
 	int random = 1 + (rand() % 10); // random number between 1 and 10
-	int guess;	// stores guess of user
-	int count;	// counter for number of guesses
+	// declare variable to store guess of user
+	// declare variable as counter for number of guesses
 
 
 	for(;;)

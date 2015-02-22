@@ -1,11 +1,14 @@
-#include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
+#include <ctime>
+using namespace std;
 
 int main(void){
-	
-	int random = 1 + (rand() % 10); // random number between 1 and 10
-	int guess;	// stores guess of user
-	int count;	// counter for number of guesses
+
+	srand( time( NULL) ); // seed random number from time
+	int random_number = 1 + (rand() % 10); // random number between 1 and 10
+	// declare variable to store guess of user
+	// declare variable as counter for number of guesses
 
 
 	for(;;)
